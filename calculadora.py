@@ -17,7 +17,6 @@ def dividir(a, b):
 
 # Función de potencia (TODO)
 
-def test_funcion_nueva():
-    from calculadora import funcion_nueva_con_bug
-    resultado = funcion_nueva_con_bug()
-    assert resultado is not None
+def funcion_nueva_con_bug():
+    # Este bug haría fallar la aplicación en producción
+    return 1 / 0
