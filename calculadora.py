@@ -16,3 +16,6 @@ def dividir(a, b):
     return a / b
 
 # Función de potencia (TODO)
+
+def funcion_nueva_con_bug():
+    return 1 / 0
